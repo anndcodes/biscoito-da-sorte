@@ -10,7 +10,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  background: linear-gradient(45deg, #190361 0%, #bb00ff 100%);
   display: grid;
   place-items: center;
 }
@@ -20,15 +20,18 @@ main {
   background-color: #fff;
   text-align: center;
   padding: 4.8rem 6.4rem 6.4rem;
-  border-radius: .5rem;
-  box-shadow: 0 2rem 5rem rgba(0,0,0,0.8);
+  border-radius: 0.5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
 }
 
-h1, p {
-  color: #34355B;
+h1,
+h2,
+p {
+  color: #34355b;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
@@ -39,4 +42,34 @@ p {
   font-size: 1.5rem;
   font-weight: 400;
   padding-block: 1.4rem 2rem;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #000;
+}
+
+#closed-cookie {
+  cursor: pointer;
+}
+
+.msg-container {
+  background-color: #E4EDF1;
+  text-align: center;
+  padding: 1rem;
+  margin-block: 1.7rem;
+}
+
+button {
+  border: none;
+  background-color: #FF9500;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.6rem;
+  margin-top: 1.7rem;
+  border-radius: .4rem;
+  cursor: pointer;
 }
