@@ -51,7 +51,7 @@ h3 {
   color: #000;
 }
 
-#closed-cookie {
+#closedCookie {
   cursor: pointer;
 }
 
@@ -72,4 +72,8 @@ button {
   margin-top: 1.7rem;
   border-radius: .4rem;
   cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
