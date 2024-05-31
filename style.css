@@ -53,6 +53,17 @@ h3 {
 
 #closedCookie {
   cursor: pointer;
+  position: relative;
+}
+#closedCookie:hover {
+  animation: example 200ms ease -2s infinite alternate;
+}
+
+@keyframes example {
+  0% {top: 5px; right: 5px; left: 0px; bottom: 0px;}
+  25% {top: 0px; right: 0px; left: 5px; bottom: 5px;}
+  50% {top: 5px; right: 5px; left: 0px; bottom: 0px;}
+  100% {top: 0px; right: 0px; left: 5px; bottom: 5px;}
 }
 
 .msg-container {
