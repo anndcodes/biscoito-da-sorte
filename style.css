@@ -56,10 +56,10 @@ h3 {
   position: relative;
 }
 #closedCookie:hover {
-  animation: example 200ms ease -2s infinite alternate;
+  animation: shakingCookie 200ms ease -2s infinite alternate;
 }
 
-@keyframes example {
+@keyframes shakingCookie {
   0% {top: 5px; right: 5px; left: 0px; bottom: 0px;}
   25% {top: 0px; right: 0px; left: 5px; bottom: 5px;}
   50% {top: 5px; right: 5px; left: 0px; bottom: 0px;}
@@ -71,6 +71,13 @@ h3 {
   text-align: center;
   padding: 1rem;
   margin-block: 1.7rem;
+  position: relative;
+  animation: msgAppearing 3s;
+}
+
+@keyframes msgAppearing {
+  from {transform: scale(0); translate: 0 185px}
+  to {transform: scale(1)}
 }
 
 button {
